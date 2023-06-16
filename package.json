@@ -1,0 +1,21 @@
+{
+  "name": "manifest-porter",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "wait_what_",
+  "license": "AGPL-3.0-only",
+  "private": false,
+  "description": "This is a tool to port .orx (for mutant-remix/orxporter) manifests to .toml (for mutant-remix/mrxbuilder)",
+  "repository": "https://github.com/mutant-remix/manifest-porter.git",
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "log75": "^2.1.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist/* && tsc",
+    "start": "rm -rf dist/* && tsc && node dist/index"
+  }
+}

@@ -1,0 +1,11 @@
+# Not worthy of git
+node_modules/
+dist/
+
+# Lockfiles are cringe
+yarn.lock
+package-lock.json
+
+# Porter artifacts
+/manifest/
+/out/
